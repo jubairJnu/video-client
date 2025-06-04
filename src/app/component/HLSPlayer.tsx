@@ -16,7 +16,7 @@ const PlyrPlayer = ({ src }) => {
       hls.attachMedia(videoRef.current);
 
       hls.on(Hls.Events.MANIFEST_PARSED, () => {
-        // Plyr setup after manifest is loaded
+      
         playerRef.current = new Plyr(videoRef.current, {
           controls: [
             "play",
