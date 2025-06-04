@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vidstack/react": "^1.12.13",
     "hls.js": "^1.6.4",
     "next": "15.3.3",
     "plyr": "^3.7.8",
