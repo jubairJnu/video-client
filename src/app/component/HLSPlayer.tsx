@@ -35,7 +35,7 @@ const PlyrPlayer = ({ src }) => {
               .filter((v, i, a) => a.indexOf(v) === i), // unique heights
             forced: true,
             onChange: (newQuality) => {
-              // Change quality in hls
+              // Change 
               const levelIndex = hls.levels.findIndex(
                 (level) => level.height === newQuality
               );
